@@ -1,0 +1,148 @@
+
+CSCMWS+njangra3@IN-5CG015F2SF MINGW64 ~/Downloads/practice (master)
+$ git status
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Documents/My Music/': Permission denied
+warning: could not open directory 'Documents/My Pictures/': Permission denied
+warning: could not open directory 'Documents/My Videos/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../.bash_history
+        ../../.idlerc/
+        ../../3D Objects/
+        ../../AppData/
+        ../../Contacts/
+        ../../Desktop/
+        ../
+        ../../Favorites/
+        ../../Links/
+        ../../Music/
+        ../../NTUSER.DAT
+        ../../NTUSER.DAT{5e0a0bb0-3840-11ea-b039-00155d006d0b}.TM.blf
+        ../../NTUSER.DAT{5e0a0bb0-3840-11ea-b039-00155d006d0b}.TMContainer00000000000000000001.regtrans-ms
+        ../../NTUSER.DAT{5e0a0bb0-3840-11ea-b039-00155d006d0b}.TMContainer00000000000000000002.regtrans-ms
+        ../../OneDrive - DXC Production/
+        ../../OneDrive/
+        ../../PycharmProjects/
+        ../../Saved Games/
+        ../../Searches/
+        ../../Videos/
+        ../../ntuser.dat.LOG1
+        ../../ntuser.dat.LOG2
+        ../../ntuser.ini
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+CSCMWS+njangra3@IN-5CG015F2SF MINGW64 ~/Downloads/practice (master)
+$ git init
+Initialized empty Git repository in C:/Users/njangra3/Downloads/practice/.git/
+
+CSCMWS+njangra3@IN-5CG015F2SF MINGW64 ~/Downloads/practice (master)
+$ cd C:\Users\njangra3\Downloads\practice
+bash: cd: C:Usersnjangra3Downloadspractice: No such file or directory
+
+CSCMWS+njangra3@IN-5CG015F2SF MINGW64 ~/Downloads/practice (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        About.txt.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+CSCMWS+njangra3@IN-5CG015F2SF MINGW64 ~/Downloads/practice (master)
+$ git remote -v https://github.com/Nj2310/Codeing-Standards.git
+error: Unknown subcommand: https://github.com/Nj2310/Codeing-Standards.git
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+
+CSCMWS+njangra3@IN-5CG015F2SF MINGW64 ~/Downloads/practice (master)
+$ git remote add origin https://github.com/Nj2310/Codeing-Standards.git
+
+CSCMWS+njangra3@IN-5CG015F2SF MINGW64 ~/Downloads/practice (master)
+$ git add .
+
+CSCMWS+njangra3@IN-5CG015F2SF MINGW64 ~/Downloads/practice (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   About.txt.txt
+
+
+CSCMWS+njangra3@IN-5CG015F2SF MINGW64 ~/Downloads/practice (master)
+$ git commit -m "Adding About doc"
+[master (root-commit) d848872] Adding About doc
+ Committer: Jangra <nitika.jangra@dxc.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+)
+ create mode 100644 About.txt.txt
+
+CSCMWS+njangra3@IN-5CG015F2SF MINGW64 ~/Downloads/practice (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+CSCMWS+njangra3@IN-5CG015F2SF MINGW64 ~/Downloads/practice (master)
+$ git remote add e https://github.com/Nj2310/Codeing-Standards.git
+
+CSCMWS+njangra3@IN-5CG015F2SF MINGW64 ~/Downloads/practice (master)
+$ git push -f e master
+
+
+
+CSCMWS+njangra3@IN-5CG015F2SF MINGW64 ~/Downloads/practice (master)
+$
+
+CSCMWS+njangra3@IN-5CG015F2SF MINGW64 ~/Downloads/practice (master)
+$ git push -f e master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 254 bytes | 127.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Nj2310/Codeing-Standards.git
+ * [new branch]      master -> master
